@@ -3,7 +3,7 @@
 int main() {
     double x = 10;
     double y = 5;
-    double z = ((x + 10) / (3*y));
+    double z = ((x + 10) / (3*y));    // Note: The entire denominator needs to be wrapped in parenthesis 
     std::cout << z;
     return 0;
 }
